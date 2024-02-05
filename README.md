@@ -4,11 +4,11 @@ The K-nearest neighbor algorithm is a learning classifier that makes classificat
 
 This algorithm can be used for regression and classification problems, whereby it is generally used as a classification algorithm. In this example, the algorithm is used for the classification of data points.
 
-1. [How does KNN work? 🎓](#how-does-KNN-work?-🎓)
-   - [Euclidean distanc 📐](#euclidean-distanc-📐)
-   - [Define k 📌](#define-k-📌)
-2. [Advantages and disadvantages 📊](#advantages-and-disadvantages-📊)
-3. [Use cases 🔧](#use-cases-🔧)
+1. [How does KNN work?](#how-does-KNN-work?)
+   - [Euclidean distanc](#euclidean-distanc)
+   - [Define k](#define-k)
+2. [Advantages and disadvantages](#advantages-and-disadvantages)
+3. [Use cases](#use-cases)
 
 # How does KNN work? 🎓
 

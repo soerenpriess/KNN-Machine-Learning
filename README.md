@@ -33,7 +33,7 @@ The k value in the KNN algorithm determines how many neighbors are checked to de
 
 | Advantages          |                 Disadvantages                 |
 | ------------------- | :-------------------------------------------: |
-| ease of use         |                 poor scaling                  |
+| easy to use         |                 poor scaling                  |
 | easy to fit         |             prone to overfitting              |
 | few hyperparameters | does not work well with high-dimensional data |
 

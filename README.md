@@ -5,7 +5,7 @@ The K-nearest neighbor algorithm is a learning classifier that makes classificat
 This algorithm can be used for regression and classification problems, whereby it is generally used as a classification algorithm. In this example, the algorithm is used for the classification of data points.
 
 1. [How does KNN work?](#how-does-KNN-work?)
-   - [Euclidean distanc](#euclidean-distanc)
+   - [Euclidean distance](#euclidean-distance)
    - [Define k](#define-k)
 2. [Advantages and disadvantages](#advantages-and-disadvantages)
 3. [Use cases](#use-cases)
@@ -15,7 +15,7 @@ This algorithm can be used for regression and classification problems, whereby i
 KNN is based on the assumption that similar points can be found in the vicinity of each other. The aim is to find out which data points have the smallest distance to an input data point in order to then be able to classify the input data point.
 To be able to do this, the distance between an input data point and other data points must be calculated. There are different distance metrics that can be used for this. In this example, the Euclidean distance is used for this.
 
-## Euclidean distanc 📐
+## Euclidean distance 📐
 
 This is the most commonly used distance measure that is restricted to real-valued vectors. Using the following formula, the distance is measured via a straight line between the input data point and the other data points.
 

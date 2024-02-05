@@ -23,7 +23,7 @@ $$d(x,y) = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2 + ... + (x_n - y_n)^2}$$
 
 $$= \sqrt{\sum_{k=1}^n (x_i - y_i)^2} $$
 
-![](./pictures/distance.png)
+![](./pictures/distance.PNG)
 
 ## Define k
 

@@ -51,6 +51,9 @@ predictions = predict(input_features, datas, classifications, 5)
 
 [plt.scatter(input_features[i][0], input_features[i][1], color='g') for i in range(len(input_features))]
 [plt.scatter(datas[i][0], datas[i][1], color='b' if classifications[i] == 0 else 'r') for i in range(len(classifications))]
+plt.title('KNN')
+plt.xlabel('x')
+plt.ylabel('y')
 plt.show()
 
 for i in range(len(input_features)):

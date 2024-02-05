@@ -19,11 +19,9 @@ To be able to do this, the distance between an input data point and other data p
 
 This is the most commonly used distance measure that is restricted to real-valued vectors. Using the following formula, the distance is measured via a straight line between the input data point and the other data points.
 
-$$d(x,y) = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2 + ... + (x_n - y_n)^2}$$
+$$d(p,q) = \sqrt{(q_1 - p_1)^2 + (q_2 - p_2)^2 + ... + (q_n - p_n)^2}$$
 
-$$= \sqrt{\sum_{i=1}^n (x_i - y_i)^2} $$
-
-![](./pictures/distance.PNG)
+$$= \sqrt{\sum_{i=1}^n (q_i - p_i)^2} $$
 
 ## Define k 📌
 

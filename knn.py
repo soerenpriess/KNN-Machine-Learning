@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-datas = [[1, 1], [19, 18], [6, 2], [3, 4], [13, 12], [15, 15], [5, 5], [18, 13], [1, 5], [13, 15], [16, 17], [5, 3], [3, 1], [16, 13], [2, 6], [18, 15], [14, 18], [2, 3]] # height, weight
+datas = [[1, 1], [19, 18], [6, 2], [3, 4], [13, 12], [15, 15], [5, 5], [18, 13], [1, 5], [13, 15], [16, 17], [5, 3], [3, 1], [16, 13], [2, 6], [18, 15], [14, 18], [2, 3]]
 classifications = [0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0 ]
 
 [plt.scatter(datas[i][0], datas[i][1], color='b' if classifications[i] == 0 else 'r') for i in range(len(classifications))]
